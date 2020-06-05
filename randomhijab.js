@@ -16,4 +16,4 @@ var urls = [
 ];
 var randomSelectedUrl = getRandomUrl(urls);
 $("#vitrine").html(
-"<iframe class='random-iframe' src='" + randomSelectedUrl + "' width='100%' height='100%' frameborder='0' allow="autoplay; encrypted-media" seamless='seamless'></iframe>");
+"<iframe class='random-iframe' src='" + randomSelectedUrl + "' allow='autoplay; encrypted-media'></iframe>");
